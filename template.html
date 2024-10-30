@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Page Title Goes Here</title>
+<meta charset="utf-8">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Quintessential">
+</head>
+<style>
+#linearGradientBox {
+    background-color: #da70d6;
+    background-image: linear-gradient(to bottom, #ffffff, #da70d6);
+    background-repeat: no-repeat;
+}
+#radialGradientBox {
+    background-color: #da70d6;
+    background-image: radial-gradient(#ffffff, #da70d6);
+    background-repeat: no-repeat;
+}
+.containerStyle {
+    display: inline-block;
+    margin: 1em auto;
+    width: 40%;
+    height: 100px;
+    text-align: center;
+    vertical-align: center;
+    border: 4px solid #9a9a9a;
+    border-radius: 20px;
+}
+.gradientbg {
+    background-color: #000000;
+    width: fit-content;
+    height: fit-content;
+    line-height: 2.7em;
+    padding: 15px;
+    border-radius: 25px;
+}
+.gradienttext {
+    overflow-wrap: anywhere;
+    word-break: break-word;
+    width: fit-content;
+    background:linear-gradient(320deg, #ff00ff, #eeee00, #00ffff);
+    font-family: 'Quintessential', serif;
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    line-height: 1.5em;
+    overflow: clip;
+}
+
+</style>
+<body>
+    <div id="linearGradientBox" class="containerStyle">
+        linear linear linear
+    </div>
+    <div id="radialGradientBox" class="containerStyle">
+        radial radial radial
+    </div>
+    <div class="gradientbg"><div class="gradienttext">
+        <b>
+        look you can give text gradients too :&#41;<br>
+        it's very silly i think<br>
+        it's just a background clipped to the text so<br>
+        technically you can do this with any image<br>
+        </b>
+    </div></div>
+</body>
+</html>
